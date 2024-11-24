@@ -5,6 +5,7 @@ module.exports = function(eleventyConfig) {
       output: "_site",
       includes: "../layouts"
     },
-    pathPrefix: "/mtm6407-static-site-your-github-ranashekhar192/"
+    pathPrefix: "/mtm6407-static-site-your-github-ranashekhar192/" // Replace with your repo name
   };
 };
+
