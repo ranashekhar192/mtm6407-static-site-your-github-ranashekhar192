@@ -1,14 +1,15 @@
 {
   "name": "mtm6407-static-site-your-github-ranashekhar192",
   "version": "1.0.0",
-  "description": "**Name**: Shekhar Rana  \r **Student Number**: ?\r **Static Site Generator**: Eleventy",
+  "description": "**Name**: Shekhar Rana  \r\n**Student Number**: ?\r\n**Static Site Generator**: Eleventy",
   "main": "index.js",
   "scripts": {
-    "start": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["eleventy", "static site", "generator", "web development"],
+  "author": "Shekhar Rana",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0"
