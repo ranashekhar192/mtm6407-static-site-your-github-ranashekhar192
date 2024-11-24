@@ -10,12 +10,11 @@
   <header>
     <nav>
       <ul>
-
-        <li><a href="/" class="{{ page.url == '/' ? 'active' : '' }}">Home</a></li>
-        <li><a href="/about/" class="{{ page.url == '/about/' ? 'active' : '' }}">About</a></li>
-        <li><a href="/contact/" class="{{ page.url == '/contact/' ? 'active' : '' }}">Contact</a></li>
-        <li><a href="/projects/" class="{{ page.url == '/projects/' ? 'active' : '' }}">Projects</a></li>
-        <li><a href="/blog/" class="{{ page.url == '/blog/' ? 'active' : '' }}">Blog</a></li>
+        <li><a href="{{ pathPrefix }}" class="{{ page.url == '/' ? 'active' : '' }}">Home</a></li>
+        <li><a href="{{ pathPrefix }}about/" class="{{ page.url == '/about/' ? 'active' : '' }}">About</a></li>
+        <li><a href="{{ pathPrefix }}contact/" class="{{ page.url == '/contact/' ? 'active' : '' }}">Contact</a></li>
+        <li><a href="{{ pathPrefix }}projects/" class="{{ page.url == '/projects/' ? 'active' : '' }}">Projects</a></li>
+        <li><a href="{{ pathPrefix }}blog/" class="{{ page.url == '/blog/' ? 'active' : '' }}">Blog</a></li>
       </ul>
     </nav>
   </header>
