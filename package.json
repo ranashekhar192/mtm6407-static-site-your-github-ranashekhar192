@@ -1,0 +1,16 @@
+{
+  "name": "mtm6407-static-site-your-github-ranashekhar192",
+  "version": "1.0.0",
+  "description": "**Name**: Shekhar Rana  \r **Student Number**: ?\r **Static Site Generator**: Eleventy",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
