@@ -1,11 +1,12 @@
-module.exports = function(eleventyConfig) {
+module.exports = function(eleventyConfig) { 
+  eleventyConfig.addPassthroughCopy("styles");
   return {
     dir: {
       input: "src",
       output: "_site",
       includes: "../layouts"
     },
-    pathPrefix: "/mtm6407-static-site-your-github-ranashekhar192/" // Replace with your repo name
+    pathPrefix: "/mtm6407-static-site-your-github-ranashekhar192/" 
   };
 };
 
