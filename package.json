@@ -8,7 +8,12 @@
     "build": "npx @11ty/eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["eleventy", "static site", "generator", "web development"],
+  "keywords": [
+    "eleventy",
+    "static site",
+    "generator",
+    "web development"
+  ],
   "author": "Shekhar Rana",
   "license": "ISC",
   "devDependencies": {
